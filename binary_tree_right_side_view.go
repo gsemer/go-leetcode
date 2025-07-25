@@ -2,12 +2,6 @@ package goleetcode
 
 import "container/list"
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 func rightSideView(root *TreeNode) []int {
 	nodes := []int{}
 	if root == nil {
